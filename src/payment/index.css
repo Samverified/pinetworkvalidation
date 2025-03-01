@@ -1,0 +1,84 @@
+/* .verify p {
+    width: 80%;
+}
+
+.piscreen {
+    width: 100%;
+}
+
+.pi_sign {
+    color: #fcb34a;
+    margin: 0 0 5%;
+}
+
+.pilinks ul {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.pilinkcard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 2% 5%;
+    width: 35%;
+    background-color: #783a8c;
+    height: 15vh;
+}
+
+.imgs, .imgs:hover {
+    text-decoration: none;
+}
+
+.pilinkcard img {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20% 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.imgs img{
+    --tw-text-opacity:1;
+    fill: rgb(105 0 138/var(--tw-text-opacity));
+}
+
+.explorebtn {
+    background-color: #783a8c;
+    border: none;
+    --tw-text-opacity:1;
+    border-radius: 5px;;
+    color: #fff;
+    margin: 2% 0 5%;
+    padding: .5% 2%;
+}
+
+.explorebtn svg{
+    padding-right: .3vw;
+}
+
+.pilinkcard p {
+    --tw-text-opacity:1;
+    color:rgb(105 0 138/var(--tw-text-opacity));
+    margin: 10% 0;
+}
+
+@media screen and (max-width: 800px) {
+    .pi_sign img {
+        height: 40vh;
+    }
+    .pilinks ul {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .h3,
+    h3 {
+        font-size: 1.75rem;
+    }
+} */

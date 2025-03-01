@@ -1,0 +1,114 @@
+.verify {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2,
+h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+.verify p{
+    letter-spacing: 2px;
+}
+
+.verify-form {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verify-form textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    outline: none;
+    font-size: 18px;
+    width: 75vw;
+    height: 70vw;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.verify-form textarea::placeholder{
+    font-family: 'Mono';
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    appearance: auto;
+    /* font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ; */
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+.verify button {
+    font-size: 80%;
+    font-weight: 600;
+    margin: .7% 0;
+    padding: 1% 2%;
+}
+
+.passphrasebtn {
+    background-color: initial;
+    border: 2px solid #76348e;
+    border-radius: 5px;
+    color: #76348e;
+    width: 100vw;
+}
+
+.fingerprintbtn {
+    background-color: #76348e;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    width: 100vw;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
